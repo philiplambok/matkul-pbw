@@ -1,24 +1,20 @@
-# README
+# Matkul Pemrograman Berbasis Website Repository
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby on Rails
+![https://raw.githubusercontent.com/philiplambok/matkul-pbw/master/app/assets/images/rubyonrails.jpg]
 
-Things you may want to cover:
+## Prerequisite
+Installed Ruby
 
-* Ruby version
+## Installation
+- Install the bundle (Dependency included bootstrap)
+```
+bundle install
+```
+- Serve the project
+```
+rails s
+```
+- Open The Project in `http://localhost:3000`.
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
