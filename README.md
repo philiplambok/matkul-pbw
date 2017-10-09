@@ -1,7 +1,7 @@
 # Matkul Pemrograman Berbasis Website Repository
 
 ## Ruby on Rails
-![https://raw.githubusercontent.com/philiplambok/matkul-pbw/master/app/assets/images/rubyonrails.jpg]
+![Ruby On Rails](https://raw.githubusercontent.com/philiplambok/matkul-pbw/master/app/assets/images/rubyonrails.jpg)
 
 ## Prerequisite
 Installed Ruby
