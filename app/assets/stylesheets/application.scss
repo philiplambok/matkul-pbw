@@ -16,4 +16,44 @@
 
 @import "bootstrap";
 
+$black-color: black;
+$pink-color : deeppink;
+$blue-color: #563d7c;
+$font : 'Roboto', sans-serif;
+
+
+body {
+  background-color:#e6ecf0;
+  font-family: $font;
+}
+
+
+.content {
+  background-color: white;
+}
+
+.header{
+  min-height: 300px;
+  background-image: url('/assets/rubyonrails.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+a {
+  color: $blue-color;
+  &:hover {
+    color: $blue-color;
+  }
+}
+
+h2,h3,h4,h5 {
+  color: $pink-color;
+}
+
+
+.footer {
+  background-color: $blue-color;
+  color: white;
+}
+
 

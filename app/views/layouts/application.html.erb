@@ -4,14 +4,45 @@
     <title>MatkulPbw</title>
     <%= csrf_meta_tags %>
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
-    <div class="container">
-
+    <div id="app">
+      <div class="container">
+      <div class="row py-4">
+        <div class="col-md-1 ml-auto">
+          <%= link_to "Home", "#"%>
+        </div>
+        <div class="col-md-1">
+          <%= link_to "News", "#"%>
+        </div>
+        <div class="col-md-1">
+          <%= link_to "Portfolio", "#"%>
+        </div>
+        <div class="col-md-1">
+          <%= link_to "Contact", "#"%>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 header d-flex align-items-center justify-content-center">
+          <h1 class="text-white content-center">Development Ruby On Rails</h1>
+        </div>
+      </div>
     </div>
-    <%= yield %>
+      <%= yield %>
+    </div>
+    <br><br>
+    <div class="container footer">
+      <div class="row">
+        <div class="col-md-12 py-2 text-center">
+          Code with Love
+        </div>
+      </div>
+    </div>
   </body>
 </html>
