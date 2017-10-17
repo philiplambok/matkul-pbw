@@ -34,22 +34,44 @@ body {
 
 .header{
   min-height: 300px;
-  background-image: url('/assets/rubyonrails.jpg');
+  background-image: url("rubyonrails.jpg");
   background-position: center center;
   background-size: cover;
+  background-color: black;
 }
 
 a {
   color: $blue-color;
-  &:hover {
+  &:hover{
     color: $blue-color;
   }
 }
 
-h2,h3,h4,h5 {
+li a{
+  color : $black-color;
+  &:hover {
+    color: $black-color;
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $pink-color;
 }
 
+.table,
+.table tr,
+.table td,
+.table th,
+.table-bordered
+{
+  border: 1px solid $blue-color;
+}
 
 .footer {
   background-color: $blue-color;
